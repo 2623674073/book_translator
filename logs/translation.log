@@ -1,0 +1,1625 @@
+20250527 14:06:40 - MainProcess | MainThread | log_utils.<module>:53 - DEBUG -this is a debug message
+20250527 14:06:40 - MainProcess | MainThread | log_utils.<module>:54 - INFO -this is an info message
+20250527 14:06:40 - MainProcess | MainThread | log_utils.<module>:55 - WARNING -this is a warining message
+20250527 14:16:32 - MainProcess | MainThread | log_utils.test:64 - ERROR -division by zero
+20250527 14:16:32 - MainProcess | MainThread | log_utils.test:65 - ERROR -division by zero
+Traceback (most recent call last):
+
+  File "D:\whx\book_translator\utils\log_utils.py", line 68, in <module>
+    test()
+    └ <function test at 0x00000173C37AA340>
+
+> File "D:\whx\book_translator\utils\log_utils.py", line 62, in test
+    print(3 / 0)
+
+ZeroDivisionError: division by zero
+20250527 14:18:19 - MainProcess | MainThread | log_utils.<module>:72 - ERROR -An error has been caught in function '<module>', process 'MainProcess' (20640), thread 'MainThread' (7416):
+Traceback (most recent call last):
+
+> File "D:\whx\book_translator\utils\log_utils.py", line 72, in <module>
+    test()
+    └ <function test at 0x0000015D675D9080>
+
+  File "D:\whx\book_translator\utils\log_utils.py", line 61, in test
+    print(3 / 0)
+
+ZeroDivisionError: division by zero
+20250527 14:44:02 - MainProcess | MainThread | log_utils.test:68 - ERROR -division by zero
+20250527 14:44:02 - MainProcess | MainThread | log_utils.test:69 - ERROR -division by zero
+Traceback (most recent call last):
+
+  File "D:\whx\book_translator\utils\log_utils.py", line 71, in <module>
+    test()
+    └ <function test at 0x000001341186A340>
+
+> File "D:\whx\book_translator\utils\log_utils.py", line 66, in test
+    print(3 / 0)
+
+ZeroDivisionError: division by zero
+20250529 10:45:21 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:45:21 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 10:47:10 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:47:10 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 10:48:37 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:48:37 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 10:48:37 - MainProcess | MainThread | book_translator.book_tranlattion:39 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:48:40 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x0000023A0750FBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x0000023A09533C10>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 40, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+                                │    │     │             └ '请翻译成中文: Test Data\nThis dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.\nThese sample...
+                                │    │     └ <function OpenAIModel.request_model at 0x0000023A093D0FE0>
+                                │    └ <ai_model.openai_model.OpenAIModel object at 0x0000023A0944E990>
+                                └ <translator.book_translator.PDFTranslator object at 0x0000023A09533C10>
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x0000023A09F384A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x0000023A09ADCC10>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x0000023A0954D5D0>
+           │    └ <openai.OpenAI object at 0x0000023A09458A10>
+           └ <ai_model.openai_model.OpenAIModel object at 0x0000023A0944E990>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文: Test Data\nThis dataset contains two test samples ...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x0000023A09ADCC10>,)
+           └ <function Completions.create at 0x0000023A09F382C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x0000023A09458A10>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x0000023A09ADCC10>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x0000023A093BA160>
+           │    │          └ <openai.OpenAI object at 0x0000023A09458A10>
+           │    └ ~ResponseT
+           └ <function cast at 0x0000023A7E93F880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x0000023A093B8900>
+          └ <openai.OpenAI object at 0x0000023A09458A10>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:48:40 - MainProcess | MainThread | book_translator.book_tranlattion:42 - DEBUG -翻译之后的内容是: 
+ 
+20250529 10:48:40 - MainProcess | MainThread | content.set_translation:36 - WARNING -当前翻译之后的文本内容不是字符串，请检查！
+20250529 10:51:29 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:51:29 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 10:51:29 - MainProcess | MainThread | book_translator.book_tranlattion:39 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:51:30 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x000001EBAFBCFBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x000001EBB1BA6310>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 40, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+                                │    │     │             └ '请翻译成中文: Test Data\nThis dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.\nThese sample...
+                                │    │     └ <function OpenAIModel.request_model at 0x000001EBB1A94FE0>
+                                │    └ <ai_model.openai_model.OpenAIModel object at 0x000001EBB1B0AB50>
+                                └ <translator.book_translator.PDFTranslator object at 0x000001EBB1BA6310>
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x000001EBB25F84A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x000001EBB21A3110>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x000001EBB177B4D0>
+           │    └ <openai.OpenAI object at 0x000001EBB1B18C10>
+           └ <ai_model.openai_model.OpenAIModel object at 0x000001EBB1B0AB50>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文: Test Data\nThis dataset contains two test samples ...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x000001EBB21A3110>,)
+           └ <function Completions.create at 0x000001EBB25F82C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x000001EBB1B18C10>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x000001EBB21A3110>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x000001EBB1A7E160>
+           │    │          └ <openai.OpenAI object at 0x000001EBB1B18C10>
+           │    └ ~ResponseT
+           └ <function cast at 0x000001EBAAFFF880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x000001EBB1A7C900>
+          └ <openai.OpenAI object at 0x000001EBB1B18C10>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:51:30 - MainProcess | MainThread | book_translator.book_tranlattion:42 - DEBUG -翻译之后的内容是: 
+ 
+20250529 10:51:30 - MainProcess | MainThread | content.set_translation:36 - WARNING -当前翻译之后的文本内容不是字符串，请检查！
+20250529 10:51:30 - MainProcess | MainThread | book_translator.book_tranlattion:39 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 10:51:30 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x000001EBAFBCFBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x000001EBB1BA6310>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 40, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+    │                           │    │     │             └ '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Stra...
+    │                           │    │     └ <function OpenAIModel.request_model at 0x000001EBB1A94FE0>
+    │                           │    └ <ai_model.openai_model.OpenAIModel object at 0x000001EBB1B0AB50>
+    │                           └ <translator.book_translator.PDFTranslator object at 0x000001EBB1BA6310>
+    └ ''
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x000001EBB25F84A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x000001EBB21A3110>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x000001EBB177B4D0>
+           │    └ <openai.OpenAI object at 0x000001EBB1B18C10>
+           └ <ai_model.openai_model.OpenAIModel object at 0x000001EBB1B0AB50>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [App...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x000001EBB21A3110>,)
+           └ <function Completions.create at 0x000001EBB25F82C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x000001EBB1B18C10>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x000001EBB21A3110>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x000001EBB1A7E160>
+           │    │          └ <openai.OpenAI object at 0x000001EBB1B18C10>
+           │    └ ~ResponseT
+           └ <function cast at 0x000001EBAAFFF880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x000001EBB1A7C900>
+          └ <openai.OpenAI object at 0x000001EBB1B18C10>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:51:30 - MainProcess | MainThread | book_translator.book_tranlattion:42 - DEBUG -翻译之后的内容是: 
+ 
+20250529 10:54:07 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:54:07 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 10:54:07 - MainProcess | MainThread | book_translator.book_tranlattion:39 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:54:08 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x000001D4BA7AFBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x000001D4BC7D3950>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 40, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+                                │    │     │             └ '请翻译成中文: Test Data\nThis dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.\nThese sample...
+                                │    │     └ <function OpenAIModel.request_model at 0x000001D4BC670FE0>
+                                │    └ <ai_model.openai_model.OpenAIModel object at 0x000001D4BC6EE710>
+                                └ <translator.book_translator.PDFTranslator object at 0x000001D4BC7D3950>
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x000001D4BD1D84A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x000001D4BCD83410>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x000001D4BC95CF90>
+           │    └ <openai.OpenAI object at 0x000001D4BC6F8750>
+           └ <ai_model.openai_model.OpenAIModel object at 0x000001D4BC6EE710>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文: Test Data\nThis dataset contains two test samples ...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x000001D4BCD83410>,)
+           └ <function Completions.create at 0x000001D4BD1D82C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x000001D4BC6F8750>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x000001D4BCD83410>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x000001D4BC65A160>
+           │    │          └ <openai.OpenAI object at 0x000001D4BC6F8750>
+           │    └ ~ResponseT
+           └ <function cast at 0x000001D4B5BDF880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x000001D4BC658900>
+          └ <openai.OpenAI object at 0x000001D4BC6F8750>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:54:08 - MainProcess | MainThread | book_translator.book_tranlattion:42 - DEBUG -翻译之后的内容是: 
+ 
+20250529 10:54:08 - MainProcess | MainThread | content.set_translation:36 - WARNING -当前翻译之后的文本内容不是字符串，请检查！
+20250529 10:54:08 - MainProcess | MainThread | book_translator.book_tranlattion:39 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 10:54:08 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x000001D4BA7AFBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x000001D4BC7D3950>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 40, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+    │                           │    │     │             └ '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Stra...
+    │                           │    │     └ <function OpenAIModel.request_model at 0x000001D4BC670FE0>
+    │                           │    └ <ai_model.openai_model.OpenAIModel object at 0x000001D4BC6EE710>
+    │                           └ <translator.book_translator.PDFTranslator object at 0x000001D4BC7D3950>
+    └ ''
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x000001D4BD1D84A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x000001D4BCD83410>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x000001D4BC95CF90>
+           │    └ <openai.OpenAI object at 0x000001D4BC6F8750>
+           └ <ai_model.openai_model.OpenAIModel object at 0x000001D4BC6EE710>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [App...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x000001D4BCD83410>,)
+           └ <function Completions.create at 0x000001D4BD1D82C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x000001D4BC6F8750>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x000001D4BCD83410>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x000001D4BC65A160>
+           │    │          └ <openai.OpenAI object at 0x000001D4BC6F8750>
+           │    └ ~ResponseT
+           └ <function cast at 0x000001D4B5BDF880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x000001D4BC658900>
+          └ <openai.OpenAI object at 0x000001D4BC6F8750>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:54:08 - MainProcess | MainThread | book_translator.book_tranlattion:42 - DEBUG -翻译之后的内容是: 
+ 
+20250529 10:58:59 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:58:59 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 10:58:59 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 10:59:01 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x00000170B490FC40>
+    └ <translator.book_translator.PDFTranslator object at 0x00000170B6933990>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 41, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+                                │    │     │             └ '请翻译成中文: Test Data\nThis dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.\nThese sample...
+                                │    │     └ <function OpenAIModel.request_model at 0x00000170B67D1080>
+                                │    └ <ai_model.openai_model.OpenAIModel object at 0x00000170B684E750>
+                                └ <translator.book_translator.PDFTranslator object at 0x00000170B6933990>
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x00000170B7338540>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x00000170B6EE6F90>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x00000170B6A18E10>
+           │    └ <openai.OpenAI object at 0x00000170B6858790>
+           └ <ai_model.openai_model.OpenAIModel object at 0x00000170B684E750>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文: Test Data\nThis dataset contains two test samples ...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x00000170B6EE6F90>,)
+           └ <function Completions.create at 0x00000170B7338360>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x00000170B6858790>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x00000170B6EE6F90>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x00000170B67BA200>
+           │    │          └ <openai.OpenAI object at 0x00000170B6858790>
+           │    └ ~ResponseT
+           └ <function cast at 0x00000170AFD3F880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x00000170B67B89A0>
+          └ <openai.OpenAI object at 0x00000170B6858790>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:59:01 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 
+20250529 10:59:01 - MainProcess | MainThread | content.set_translation:36 - WARNING -当前翻译之后的文本内容不是字符串，请检查！
+20250529 10:59:01 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 10:59:02 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x00000170B490FC40>
+    └ <translator.book_translator.PDFTranslator object at 0x00000170B6933990>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 41, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+    │                           │    │     │             └ '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Stra...
+    │                           │    │     └ <function OpenAIModel.request_model at 0x00000170B67D1080>
+    │                           │    └ <ai_model.openai_model.OpenAIModel object at 0x00000170B684E750>
+    │                           └ <translator.book_translator.PDFTranslator object at 0x00000170B6933990>
+    └ ''
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x00000170B7338540>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x00000170B6EE6F90>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x00000170B6A18E10>
+           │    └ <openai.OpenAI object at 0x00000170B6858790>
+           └ <ai_model.openai_model.OpenAIModel object at 0x00000170B684E750>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [App...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x00000170B6EE6F90>,)
+           └ <function Completions.create at 0x00000170B7338360>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x00000170B6858790>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x00000170B6EE6F90>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x00000170B67BA200>
+           │    │          └ <openai.OpenAI object at 0x00000170B6858790>
+           │    └ ~ResponseT
+           └ <function cast at 0x00000170AFD3F880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x00000170B67B89A0>
+          └ <openai.OpenAI object at 0x00000170B6858790>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 10:59:02 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 
+20250529 11:01:07 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:01:07 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:01:07 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:01:09 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x000002A5AE70FBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x000002A5B0733B90>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 41, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+                                │    │     │             └ '请翻译成中文: Test Data\nThis dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.\nThese sample...
+                                │    │     └ <function OpenAIModel.request_model at 0x000002A5B05D0FE0>
+                                │    └ <ai_model.openai_model.OpenAIModel object at 0x000002A5B0646AD0>
+                                └ <translator.book_translator.PDFTranslator object at 0x000002A5B0733B90>
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x000002A5B11484A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x000002A5B0CDE7D0>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x000002A5B02C0710>
+           │    └ <openai.OpenAI object at 0x000002A5B0658B90>
+           └ <ai_model.openai_model.OpenAIModel object at 0x000002A5B0646AD0>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文: Test Data\nThis dataset contains two test samples ...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x000002A5B0CDE7D0>,)
+           └ <function Completions.create at 0x000002A5B11482C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x000002A5B0658B90>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x000002A5B0CDE7D0>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x000002A5B05BA160>
+           │    │          └ <openai.OpenAI object at 0x000002A5B0658B90>
+           │    └ ~ResponseT
+           └ <function cast at 0x000002A5A9B3F880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x000002A5B05B8900>
+          └ <openai.OpenAI object at 0x000002A5B0658B90>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 11:01:09 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 
+20250529 11:01:09 - MainProcess | MainThread | content.set_translation:36 - WARNING -当前翻译之后的文本内容不是字符串，请检查！
+20250529 11:01:09 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:01:09 - MainProcess | MainThread | openai_model.request_model:45 - ERROR -Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+Traceback (most recent call last):
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\main.py", line 48, in <module>
+    translator.book_tranlattion(file_path=file_path, out_file_format=file_format)
+    │          │                          │                          └ 'pdf'
+    │          │                          └ 'pdftest/test.pdf'
+    │          └ <function PDFTranslator.book_tranlattion at 0x000002A5AE70FBA0>
+    └ <translator.book_translator.PDFTranslator object at 0x000002A5B0733B90>
+
+  File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\translator\book_translator.py", line 41, in book_tranlattion
+    translation_text , status = self.model.request_model(prompt)
+    │                           │    │     │             └ '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Stra...
+    │                           │    │     └ <function OpenAIModel.request_model at 0x000002A5B05D0FE0>
+    │                           │    └ <ai_model.openai_model.OpenAIModel object at 0x000002A5B0646AD0>
+    │                           └ <translator.book_translator.PDFTranslator object at 0x000002A5B0733B90>
+    └ ''
+
+> File "X:\文档区\2找工作\000AI 入魔\01大模型课程笔记\1马士兵课程\课时6 翻译项目\book_translator\ai_model\openai_model.py", line 25, in request_model
+    resp = self.client.chat.completions.create(
+           │    │      │    │           └ <function Completions.create at 0x000002A5B11484A0>
+           │    │      │    └ <openai.resources.chat.completions.completions.Completions object at 0x000002A5B0CDE7D0>
+           │    │      └ <openai.resources.chat.chat.Chat object at 0x000002A5B02C0710>
+           │    └ <openai.OpenAI object at 0x000002A5B0658B90>
+           └ <ai_model.openai_model.OpenAIModel object at 0x000002A5B0646AD0>
+
+  File "X:\anaconda\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           │     │       └ {'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': '请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [App...
+           │     └ (<openai.resources.chat.completions.completions.Completions object at 0x000002A5B0CDE7D0>,)
+           └ <function Completions.create at 0x000002A5B11482C0>
+  File "X:\anaconda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           │    └ <bound method SyncAPIClient.post of <openai.OpenAI object at 0x000002A5B0658B90>>
+           └ <openai.resources.chat.completions.completions.Completions object at 0x000002A5B0CDE7D0>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+           │    │          │    │       │        │            │                  └ openai.Stream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+           │    │          │    │       │        │            └ False
+           │    │          │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+           │    │          │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+           │    │          │    └ <function SyncAPIClient.request at 0x000002A5B05BA160>
+           │    │          └ <openai.OpenAI object at 0x000002A5B0658B90>
+           │    └ ~ResponseT
+           └ <function cast at 0x000002A5A9B3F880>
+  File "X:\anaconda\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x000002A5B05B8900>
+          └ <openai.OpenAI object at 0x000002A5B0658B90>
+
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+20250529 11:01:09 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 
+20250529 11:01:09 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:01:09 - MainProcess | MainThread | file_writer.save_book_pdf:96 - INFO -pdf写入成功！
+20250529 11:03:20 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:03:20 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:03:20 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:03:23 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+此数据集包含两个由ChatGPT提供的测试样本，这是OpenAI的一个人工智能语言模型。这些样本包括一个Markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英译中文翻译软件。  
+
+文本测试  
+快速的棕色狐狸跳过懒狗。这句全字符句包含了英语字母表中的每一个字母至少一次。全字符句常用于测试字体、键盘和其他文本相关工具。除了英语，还有许多其他语言中存在全字符句。有些全字符句由于语言的独特特性而更难构造。  
+
+表格测试
+20250529 11:03:23 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:03:25 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 以下是翻译后的内容，用表格形式呈现，每个元素用“、”隔开：
+
+| 水果      | 颜色   | 价格 (美元) |
+|-----------|--------|--------------|
+| 苹果      | 红色   | 1.20         |
+| 香蕉      | 黄色   | 0.50         |
+| 橙子      | 橙色   | 0.80         |
+| 草莓      | 红色   | 2.50         |
+| 蓝莓      | 蓝色   | 3.00         |
+| 奇异果    | 绿色   | 1.00         |
+| 芒果      | 橙色   | 1.50         |
+| 葡萄      | 紫色   | 2.00         |
+20250529 11:03:25 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['以下是翻译后的内容', '用表格形式呈现', '每个元素用“、”隔开：'], [''], ['| 水果      | 颜色   | 价格 (美元) |'], ['|-----------|--------|--------------|'], ['| 苹果      | 红色   | 1.20         |'], ['| 香蕉      | 黄色   | 0.50         |'], ['| 橙子      | 橙色   | 0.80         |'], ['| 草莓      | 红色   | 2.50         |'], ['| 蓝莓      | 蓝色   | 3.00         |'], ['| 奇异果    | 绿色   | 1.00         |'], ['| 芒果      | 橙色   | 1.50         |'], ['| 葡萄      | 紫色   | 2.00         |']]
+20250529 11:03:25 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+                                        0        1            2
+0                               以下是翻译后的内容  用表格形式呈现  每个元素用“、”隔开：
+1                                             None         None
+2            | 水果      | 颜色   | 价格 (美元) |     None         None
+3   |-----------|--------|--------------|     None         None
+4       | 苹果      | 红色   | 1.20         |     None         None
+5       | 香蕉      | 黄色   | 0.50         |     None         None
+6       | 橙子      | 橙色   | 0.80         |     None         None
+7       | 草莓      | 红色   | 2.50         |     None         None
+8       | 蓝莓      | 蓝色   | 3.00         |     None         None
+9        | 奇异果    | 绿色   | 1.00         |     None         None
+10      | 芒果      | 橙色   | 1.50         |     None         None
+11      | 葡萄      | 紫色   | 2.00         |     None         None
+20250529 11:03:25 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:11:03 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:11:03 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:11:03 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:11:09 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个测试样本，这些样本由OpenAI的AI语言模型ChatGPT提供。  
+这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英译中翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒惰的狗。这一句包含了英语字母表中的每个字母至少一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也存在全字母句。由于语言的独特特性，有些全字母句更难构造。  
+
+表格测试
+20250529 11:11:09 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:11:11 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ | 水果       | 颜色    | 价格 (美元) |
+|------------|---------|--------------|
+| 苹果       | 红色    | 1.20         |
+| 香蕉       | 黄色    | 0.50         |
+| 橘子       | 橙色    | 0.80         |
+| 草莓       | 红色    | 2.50         |
+| 蓝莓       | 蓝色    | 3.00         |
+| 猕猴桃     | 绿色    | 1.00         |
+| 芒果       | 橙色    | 1.50         |
+| 葡萄       | 紫色    | 2.00         |
+20250529 11:11:11 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['| 水果       | 颜色    | 价格 (美元) |'], ['|------------|---------|--------------|'], ['| 苹果       | 红色    | 1.20         |'], ['| 香蕉       | 黄色    | 0.50         |'], ['| 橘子       | 橙色    | 0.80         |'], ['| 草莓       | 红色    | 2.50         |'], ['| 蓝莓       | 蓝色    | 3.00         |'], ['| 猕猴桃     | 绿色    | 1.00         |'], ['| 芒果       | 橙色    | 1.50         |'], ['| 葡萄       | 紫色    | 2.00         |']]
+20250529 11:11:11 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+                                         0
+0           | 水果       | 颜色    | 价格 (美元) |
+1  |------------|---------|--------------|
+2      | 苹果       | 红色    | 1.20         |
+3      | 香蕉       | 黄色    | 0.50         |
+4      | 橘子       | 橙色    | 0.80         |
+5      | 草莓       | 红色    | 2.50         |
+6      | 蓝莓       | 蓝色    | 3.00         |
+7       | 猕猴桃     | 绿色    | 1.00         |
+8      | 芒果       | 橙色    | 1.50         |
+9      | 葡萄       | 紫色    | 2.00         |
+20250529 11:11:11 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:13:32 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:13:32 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:14:00 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:15:10 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由ChatGPT提供的测试样本，ChatGPT是OpenAI开发的人工智能语言模型。这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英汉翻译软件。  
+
+文本测试  
+快速的棕色狐狸跳过懒惰的狗。这句全字母句包含了英语字母表中的每一个字母，至少出现一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，还有许多其他语言的全字母句。由于语言的独特特征，一些全字母句更难构造。  
+
+表格测试
+20250529 11:16:29 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:16:47 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ | 水果      | 颜色    | 价格 (美元) |
+|-----------|---------|--------------|
+| 苹果      | 红色    | 1.20         |
+| 香蕉      | 黄色    | 0.50         |
+| 橙子      | 橙色    | 0.80         |
+| 草莓      | 红色    | 2.50         |
+| 蓝莓      | 蓝色    | 3.00         |
+| 猕猴桃    | 绿色    | 1.00         |
+| 芒果      | 橙色    | 1.50         |
+| 葡萄      | 紫色    | 2.00         |
+20250529 11:18:05 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:18:05 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:18:05 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:18:09 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+此数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。这些样本包括一个markdown表格和一段英文文本，可用于测试支持文本和表格格式的英译中翻译软件。  
+文本测试  
+快速的棕色狐狸跳过懒狗。这句全字母句包含了英文字母表中的每一个字母，至少出现一次。全字母句常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也有全字母句。有些全字母句由于语言的独特特性而更难构造。  
+表格测试
+20250529 11:18:09 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:18:11 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ | 水果      | 颜色  | 价格 (美元) |
+|-----------|-------|--------------|
+| 苹果      | 红色  | 1.20         |
+| 香蕉      | 黄色  | 0.50         |
+| 橙子      | 橙色  | 0.80         |
+| 草莓      | 红色  | 2.50         |
+| 蓝莓      | 蓝色  | 3.00         |
+| 奇异果    | 绿色  | 1.00         |
+| 芒果      | 橙色  | 1.50         |
+| 葡萄      | 紫色  | 2.00         |
+20250529 11:18:11 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['| 水果      | 颜色  | 价格 (美元) |'], ['|-----------|-------|--------------|'], ['| 苹果      | 红色  | 1.20         |'], ['| 香蕉      | 黄色  | 0.50         |'], ['| 橙子      | 橙色  | 0.80         |'], ['| 草莓      | 红色  | 2.50         |'], ['| 蓝莓      | 蓝色  | 3.00         |'], ['| 奇异果    | 绿色  | 1.00         |'], ['| 芒果      | 橙色  | 1.50         |'], ['| 葡萄      | 紫色  | 2.00         |']]
+20250529 11:18:11 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+                                      0
+0           | 水果      | 颜色  | 价格 (美元) |
+1  |-----------|-------|--------------|
+2      | 苹果      | 红色  | 1.20         |
+3      | 香蕉      | 黄色  | 0.50         |
+4      | 橙子      | 橙色  | 0.80         |
+5      | 草莓      | 红色  | 2.50         |
+6      | 蓝莓      | 蓝色  | 3.00         |
+7       | 奇异果    | 绿色  | 1.00         |
+8      | 芒果      | 橙色  | 1.50         |
+9      | 葡萄      | 紫色  | 2.00         |
+20250529 11:18:11 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:19:18 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:19:18 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:19:18 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:19:21 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由ChatGPT提供的测试样本，这是OpenAI的一个AI语言模型。  
+这些样本包括一个markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英译中翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒狗。这句全句包含了英语字母表中每个字母至少一次。全句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也有全句。由于语言的独特特性，有些全句更难构造。  
+
+表格测试
+20250529 11:19:21 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素用都好隔开，以表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:19:23 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 以下是翻译成中文并以表格形式呈现的内容：
+
+| 水果       | 颜色   | 价格 (美元) |
+|------------|--------|--------------|
+| 苹果       | 红色   | 1.20         |
+| 香蕉       | 黄色   | 0.50         |
+| 橙子       | 橙色   | 0.80         |
+| 草莓       | 红色   | 2.50         |
+| 蓝莓       | 蓝色   | 3.00         |
+| 猕猴桃     | 绿色   | 1.00         |
+| 芒果       | 橙色   | 1.50         |
+| 葡萄       | 紫色   | 2.00         |
+20250529 11:19:23 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['以下是翻译成中文并以表格形式呈现的内容：'], [''], ['| 水果       | 颜色   | 价格 (美元) |'], ['|------------|--------|--------------|'], ['| 苹果       | 红色   | 1.20         |'], ['| 香蕉       | 黄色   | 0.50         |'], ['| 橙子       | 橙色   | 0.80         |'], ['| 草莓       | 红色   | 2.50         |'], ['| 蓝莓       | 蓝色   | 3.00         |'], ['| 猕猴桃     | 绿色   | 1.00         |'], ['| 芒果       | 橙色   | 1.50         |'], ['| 葡萄       | 紫色   | 2.00         |']]
+20250529 11:19:23 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+                                         0
+0                     以下是翻译成中文并以表格形式呈现的内容：
+1                                         
+2            | 水果       | 颜色   | 价格 (美元) |
+3   |------------|--------|--------------|
+4       | 苹果       | 红色   | 1.20         |
+5       | 香蕉       | 黄色   | 0.50         |
+6       | 橙子       | 橙色   | 0.80         |
+7       | 草莓       | 红色   | 2.50         |
+8       | 蓝莓       | 蓝色   | 3.00         |
+9        | 猕猴桃     | 绿色   | 1.00         |
+10      | 芒果       | 橙色   | 1.50         |
+11      | 葡萄       | 紫色   | 2.00         |
+20250529 11:19:23 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:19:23 - MainProcess | MainThread | file_writer.save_book_pdf:96 - INFO -pdf写入成功！
+20250529 11:23:56 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:23:56 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:23:56 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:24:00 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。这些样本包括一个markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英译中翻译软件。  
+
+文本测试  
+快速的棕色狐狸跳过懒惰的狗。这句全字母句包含了英语字母表中的每个字母，至少出现一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也有全字母句。其中一些全字母句由于语言的独特特性而更难构造。  
+
+表格测试
+20250529 11:24:00 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:24:02 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ Fruit, Color, Price (USD)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+奇异果, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 11:24:02 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['Fruit', ' Color', ' Price (USD)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['奇异果', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 11:24:02 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+       0       1             2
+0  Fruit   Color   Price (USD)
+1     苹果      红色          1.20
+2     香蕉      黄色          0.50
+3     橙子      橙色          0.80
+4     草莓      红色          2.50
+5     蓝莓      蓝色          3.00
+6    奇异果      绿色          1.00
+7     芒果      橙色          1.50
+8     葡萄      紫色          2.00
+20250529 11:24:02 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:24:02 - MainProcess | MainThread | file_writer.save_book_pdf:96 - INFO -pdf写入成功！
+20250529 11:38:43 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:38:43 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:38:43 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:38:47 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。  
+这些样本包括一个Markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英译汉翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒惰的狗。这句全字母句包含了英语字母表中的每一个字母至少一次。全字母句常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也存在全字母句。有些全字母句由于语言的独特特征而更难构造。  
+
+表格测试
+20250529 11:38:47 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:38:48 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橘色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+猕猴桃, 绿色, 1.00  
+芒果, 橘色, 1.50  
+葡萄, 紫色, 2.00
+20250529 11:38:48 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橘色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['猕猴桃', ' 绿色', ' 1.00'], ['芒果', ' 橘色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 11:38:48 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橘色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  猕猴桃   绿色      1.00
+7   芒果   橘色      1.50
+8   葡萄   紫色      2.00
+20250529 11:38:48 - MainProcess | MainThread | file_writer.save_book_pdf:48 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 11:38:48 - MainProcess | MainThread | file_writer.save_book_pdf:96 - INFO -pdf写入成功！
+20250529 11:42:45 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:42:45 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:42:45 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:42:48 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。  
+这些样本包括一个markdown表格和一段英文文本，可用于测试支持文本和表格格式的英译中文翻译软件。  
+
+文本测试  
+快速的棕色狐狸跳过懒狗。这句全字母句包含了英语字母表中的每一个字母至少一次。全字母句通常用于测试字体、键盘及其他与文本相关的工具。除了英语，还有许多其他语言的全字母句。由于语言的独特特性，有些全字母句更难构造。  
+
+表格测试
+20250529 11:42:48 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:42:50 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+猕猴桃, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 11:42:50 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['猕猴桃', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 11:42:50 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  猕猴桃   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 11:42:50 - MainProcess | MainThread | file_writer.save_book_makrdown:109 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.md
+20250529 11:43:30 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:43:30 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:43:30 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:43:34 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。  
+这些样本包括一个Markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英汉翻译软件。  
+文本测试  
+快速的棕色狐狸跳过懒狗。这句话是一个包含英语字母表每个字母至少一次的全字母句。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，还有许多其他语言的全字母句。有些全字母句由于语言的独特特性而更难构造。  
+表格测试
+20250529 11:43:34 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:43:35 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+奇异果, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 11:43:35 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['奇异果', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 11:43:35 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  奇异果   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 11:43:35 - MainProcess | MainThread | file_writer.save_book_makrdown:109 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.md
+20250529 11:45:08 - MainProcess | MainThread | pdf_parser.parse_pdf:58 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:45:08 - MainProcess | MainThread | pdf_parser.parse_pdf:63 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 11:45:08 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 11:45:11 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+这个数据集包含了由 OpenAI 的 AI 语言模型 ChatGPT 提供的两个测试样本。  
+这些样本包括一个 markdown 表格和一段英文文本，可用于测试支持文本和表格格式的英译中翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒狗。这句话包含了英语字母表中的每个字母至少一次。  
+它是一个全字母句，通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也有全字母句。由于语言的独特特性，一些全字母句更难构造。  
+
+表格测试
+20250529 11:45:11 - MainProcess | MainThread | book_translator.book_tranlattion:40 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 11:45:15 - MainProcess | MainThread | book_translator.book_tranlattion:43 - DEBUG -翻译之后的内容是: 
+ Fruit, Color, Price (USD)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+猕猴桃, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 11:45:15 - MainProcess | MainThread | content.set_translation:70 - DEBUG -[['Fruit', ' Color', ' Price (USD)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['猕猴桃', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 11:45:15 - MainProcess | MainThread | content.set_translation:75 - DEBUG -处理成DataFrame数据: 
+       0       1             2
+0  Fruit   Color   Price (USD)
+1     苹果      红色          1.20
+2     香蕉      黄色          0.50
+3     橙子      橙色          0.80
+4     草莓      红色          2.50
+5     蓝莓      蓝色          3.00
+6    猕猴桃      绿色          1.00
+7     芒果      橙色          1.50
+8     葡萄      紫色          2.00
+20250529 11:45:15 - MainProcess | MainThread | file_writer.save_book_makrdown:109 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.md
+20250529 11:45:15 - MainProcess | MainThread | file_writer.save_book_makrdown:146 - INFO -MarkDown文件写入完成！
+20250529 18:11:42 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:11:42 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:11:42 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:11:46 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据
+该数据集包含两个由ChatGPT提供的测试样本，这是OpenAI的一个AI语言模型。这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英汉翻译软件。
+
+文本测试
+敏捷的棕色狐狸跃过懒惰的狗。这句拼字游戏包含英语字母表中的每一个字母，至少出现一次。拼字游戏通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言中也有拼字游戏。有些拼字游戏因语言的独特特征而更难构造。
+
+表格测试
+20250529 18:11:46 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:11:48 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+奇异果, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:11:48 - MainProcess | MainThread | content.set_translation:71 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['奇异果', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:11:48 - MainProcess | MainThread | content.set_translation:76 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  奇异果   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 18:11:48 - MainProcess | MainThread | book_translator.book_tranlattion:52 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:11:48 - MainProcess | MainThread | file_writer.save_book_makrdown:129 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.md
+20250529 18:11:48 - MainProcess | MainThread | file_writer.save_book_makrdown:134 - INFO -正在将图像写入临时目录：images_20250529_181148
+20250529 18:11:48 - MainProcess | MainThread | file_writer.save_book_makrdown:191 - INFO -MarkDown文件写入完成！
+20250529 18:12:56 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:12:56 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:12:56 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:13:01 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+这个数据集包含两个由ChatGPT提供的测试样本，ChatGPT是OpenAI的一个AI语言模型。  
+这些样本包括一个Markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英汉翻译软件。  
+
+文本测试  
+快速的棕色狐狸跳过懒狗。这个潘格拉姆句子至少包含了英语字母表中的每个字母一次。潘格拉姆句子通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言也有潘格拉姆句子。有些潘格拉姆句子由于语言的独特特性而更难构造。  
+
+表格测试
+20250529 18:13:01 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:13:03 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+猕猴桃, 绿色, 1.00  
+ mango, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:13:03 - MainProcess | MainThread | content.set_translation:71 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['猕猴桃', ' 绿色', ' 1.00'], ['mango', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:13:03 - MainProcess | MainThread | content.set_translation:76 - DEBUG -处理成DataFrame数据: 
+       0    1         2
+0     水果   颜色   价格 (美元)
+1     苹果   红色      1.20
+2     香蕉   黄色      0.50
+3     橙子   橙色      0.80
+4     草莓   红色      2.50
+5     蓝莓   蓝色      3.00
+6    猕猴桃   绿色      1.00
+7  mango   橙色      1.50
+8     葡萄   紫色      2.00
+20250529 18:13:03 - MainProcess | MainThread | book_translator.book_tranlattion:52 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:13:03 - MainProcess | MainThread | file_writer.save_book_pdf:51 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 18:13:03 - MainProcess | MainThread | file_writer.save_book_pdf:116 - INFO -pdf写入成功！
+20250529 18:23:51 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:23:51 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:27:22 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:27:44 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由ChatGPT提供的测试样本，ChatGPT是OpenAI开发的一个人工智能语言模型。这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英中翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒惰的狗。这句全字母句包含了英语字母表中的每个字母，至少出现了一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，还有许多其他语言的全字母句。由于语言的独特特征，有些全字母句更难构造。  
+
+表格测试
+20250529 18:28:35 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:29:00 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+奇异果, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:29:10 - MainProcess | MainThread | content.set_translation:71 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['奇异果', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:29:11 - MainProcess | MainThread | content.set_translation:76 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  奇异果   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 18:29:50 - MainProcess | MainThread | book_translator.book_tranlattion:52 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:30:35 - MainProcess | MainThread | file_writer.save_book_pdf:51 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 18:32:20 - MainProcess | MainThread | file_writer.save_book_pdf:116 - INFO -pdf写入成功！
+20250529 18:34:23 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:34:23 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:34:37 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:34:41 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+此数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。  
+这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英译中的软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒惰的狗。这个全字母句至少包含英语字母表中的每个字母一次。全字母句常用于测试字体、键盘和其他文本相关工具。除了英语，许多其他语言中也有全字母句。有些全字母句由于语言的独特特性而更难构造。  
+
+表格测试
+20250529 18:34:54 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:34:56 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+猕猴桃, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:34:57 - MainProcess | MainThread | content.set_translation:71 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['猕猴桃', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:34:57 - MainProcess | MainThread | content.set_translation:76 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  猕猴桃   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 18:34:59 - MainProcess | MainThread | book_translator.book_tranlattion:52 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:35:00 - MainProcess | MainThread | file_writer.save_book_pdf:51 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 18:35:06 - MainProcess | MainThread | file_writer.save_book_pdf:125 - INFO -pdf写入成功！
+20250529 18:40:40 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:40:40 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:40:40 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:40:45 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由ChatGPT提供的测试样本，ChatGPT是OpenAI的一个人工智能语言模型。  
+这些样本包括一个markdown表格和一段英文文本，可以用于测试支持文本和表格格式的英译中翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒狗。这句全字母句包含了英语字母表中的每一个字母，至少出现一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言也有全字母句。有些全字母句由于语言的独特特点而更难构造。  
+
+表格测试
+20250529 18:40:45 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:40:47 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+奇异果, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:40:47 - MainProcess | MainThread | content.set_translation:74 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['奇异果', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:40:47 - MainProcess | MainThread | content.set_translation:79 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  奇异果   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 18:40:47 - MainProcess | MainThread | book_translator.book_tranlattion:53 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:40:47 - MainProcess | MainThread | file_writer.save_book_pdf:51 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 18:45:03 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:45:03 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:45:04 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:45:07 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英译中翻译软件。  
+
+文本测试  
+快速的棕色狐狸跳过懒惰的狗。这句话包含了英语字母表中的每一个字母，至少出现一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言也有全字母句。有些全字母句由于语言的独特特性而更加难以构造。  
+
+表格测试
+20250529 18:45:07 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:45:09 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+奇异果, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:45:09 - MainProcess | MainThread | content.set_translation:74 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['奇异果', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:45:09 - MainProcess | MainThread | content.set_translation:79 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  奇异果   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 18:45:09 - MainProcess | MainThread | book_translator.book_tranlattion:53 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:45:09 - MainProcess | MainThread | file_writer.save_book_pdf:52 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.pdf
+20250529 18:45:10 - MainProcess | MainThread | file_writer.save_book_pdf:116 - INFO -pdf写入成功！
+20250529 18:48:58 - MainProcess | MainThread | pdf_parser.parse_pdf:62 - DEBUG -[pdf解析之后的文本内容]： 
+Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:48:58 - MainProcess | MainThread | pdf_parser.parse_pdf:68 - DEBUG -[pdf解析之后的表格内容]： 
+[[['Fruit', 'Color', 'Price (USD)'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]]
+20250529 18:48:58 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文: Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+20250529 18:49:01 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 测试数据  
+该数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。  
+这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格格式的英译中翻译软件。  
+文本测试  
+敏捷的棕色狐狸跃过懒狗。这个全字母句包含英语字母表中的每一个字母，至少出现一次。全字母句通常用于测试字体、键盘和其他与文本相关的工具。除了英语，还有许多其他语言的全字母句。由于语言的独特特性，某些全字母句更难以构建。  
+表格测试
+20250529 18:49:01 - MainProcess | MainThread | book_translator.book_tranlattion:44 - DEBUG -大模型的提示信息:请翻译成中文，每一个元素之间用逗号隔开，以非MarkDown的表格形式返回：[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+20250529 18:49:04 - MainProcess | MainThread | book_translator.book_tranlattion:47 - DEBUG -翻译之后的内容是: 
+ 水果, 颜色, 价格 (美元)  
+苹果, 红色, 1.20  
+香蕉, 黄色, 0.50  
+橙子, 橙色, 0.80  
+草莓, 红色, 2.50  
+蓝莓, 蓝色, 3.00  
+猕猴桃, 绿色, 1.00  
+芒果, 橙色, 1.50  
+葡萄, 紫色, 2.00
+20250529 18:49:04 - MainProcess | MainThread | content.set_translation:74 - DEBUG -[['水果', ' 颜色', ' 价格 (美元)'], ['苹果', ' 红色', ' 1.20'], ['香蕉', ' 黄色', ' 0.50'], ['橙子', ' 橙色', ' 0.80'], ['草莓', ' 红色', ' 2.50'], ['蓝莓', ' 蓝色', ' 3.00'], ['猕猴桃', ' 绿色', ' 1.00'], ['芒果', ' 橙色', ' 1.50'], ['葡萄', ' 紫色', ' 2.00']]
+20250529 18:49:04 - MainProcess | MainThread | content.set_translation:79 - DEBUG -处理成DataFrame数据: 
+     0    1         2
+0   水果   颜色   价格 (美元)
+1   苹果   红色      1.20
+2   香蕉   黄色      0.50
+3   橙子   橙色      0.80
+4   草莓   红色      2.50
+5   蓝莓   蓝色      3.00
+6  猕猴桃   绿色      1.00
+7   芒果   橙色      1.50
+8   葡萄   紫色      2.00
+20250529 18:49:04 - MainProcess | MainThread | book_translator.book_tranlattion:53 - DEBUG -检测到图像内容，跳过翻译
+20250529 18:49:04 - MainProcess | MainThread | file_writer.save_book_makrdown:129 - DEBUG -pdf文件的原路径是：pdftest/test.pdf , 翻译之后的路径是：pdftest/test_translated.md
+20250529 18:49:04 - MainProcess | MainThread | file_writer.save_book_makrdown:134 - INFO -正在将图像写入临时目录：images_20250529_184904
+20250529 18:49:04 - MainProcess | MainThread | file_writer.save_book_makrdown:193 - INFO -MarkDown文件写入完成！

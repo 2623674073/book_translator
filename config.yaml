@@ -1,0 +1,13 @@
+OpenAIModel:
+  model: "gpt-4o-mini"
+  api_key: "sk-XHspRptkSEvaD16Qg86bnC0uml6jlOWI4tzRc38iIVQmqdly"
+  base_url: "https://xuedingmao.online/v1"
+
+#GLMModel:
+#  model_url: "your_chatglm_model_url"
+#  timeout: 300
+
+common:
+  book: "pdftest/test.pdf"
+#  file_format: "pdf"
+  file_format: "md"

@@ -1,0 +1,9 @@
+openai
+pdfplumber
+simplejson
+requests
+PyYAML
+pillow
+reportlab
+pandas
+loguru
